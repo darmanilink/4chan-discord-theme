@@ -1,0 +1,73 @@
+//META{"name":"4chan","description":"Maximum funposting theme.","author":"DarmaniLink - Forked from Zyst","version":"0.1.0"}*//
+code.inline {
+    color: #789922;
+    background: inherit !important;
+}
+
+div[class*="containerCozyBounded-1rKFAn"] { /* message container class */
+    background-color: #D6DAF0;
+    border: 1px solid #B7C5D9;
+    border-left: none;
+    border-top: none;
+    display: table;
+    padding: 2px;
+    margin: 6px 0 0 1em;
+    overflow: hidden;
+    min-width: 325px;
+    min-height: 150px;
+    margin-right: 16px;
+}
+
+div[class*="containerCozy-B4noqO"]{ /* image container class */
+    margin-left: 120px;
+}
+textarea[class*"=textArea-2Spzkt"]{ /*edit box*/
+   -webkit-margin-start: 120px;
+   -webkit-margin-end: 40px;
+}
+div[class*="image-33JSyf da-image large-3ChYtB da-large"]{ /* pfp class */
+    width: 125px;
+    height: 125px;
+    border-radius: 0px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 20px;
+    margin-top: 20px !important;
+    margin-bottom: 20px;
+    position: absolute;
+    z-index: 2;
+}
+span[class*="username-_4ZSMR"]{
+	position: relative;
+	left:-75px;
+}
+time[class*="timestampCozy-2hLAPV"]{
+	position: relative;
+	left:-75px;
+}
+
+div[class*="markup-2BOw-j da-markup"] { /*single comment container class*/
+    -webkit-margin-start: 120px;
+    -webkit-margin-end: 40px;
+}
+
+hr[class*="dividerEnabled-2TTlcf"]{ /*some weird divider thing in between posts*/
+	visibility: hidden;
+}
+
+div[class*="messages-3amgkR"] { /* background class */
+    background-color: #EEF2FF;
+}
+
+div[class*=isMentionedCozy-3isp7y]{
+   z-index: 1;
+}
+
+div[class*="isMentioned"] div[class*="markup"]::after { 
+    content: " (You)";
+    color: #84bd3f!important;
+ 
+}
+
+
+
